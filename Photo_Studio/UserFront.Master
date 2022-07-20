@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserFront.master.cs" Inherits="Photo_Studio.UserFront" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    </title>
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet1.css" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="boostrap/animate.min.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <link href="assets/css/lightbox.min.css" rel="stylesheet" />
+    <script src="assets/js/lightbox-plus-jquery.min.js"></script>
+    <style type="text/css">
+       
+    
+</style>   
+     <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+   <section>
+        <div class="d2">
+               <div class="d1">
+                  <h1 class="wow zoomIn animated animated" style="visibility:visible; animation-delay:0.5s; animation-name:zoomIn; text-align: center;"> Crystle Photography</h1>
+
+                </div>
+         </div>
+  
+
+    <div class="navigation">
+      
+            <a href="main.aspx">Home</a>
+            
+            <a href="Wedding.aspx">Wedding</a>
+          <a href="Maternity.aspx">Maternity</a>
+          <a href="PreWedding.aspx">Pre-Wedding</a>
+          <a href="Birthday.aspx">Birthday</a>
+          <a href="Kids.aspx">Kids</a>
+          <a href="Engagement.aspx">Engagement</a>
+          <a href="MyOrder.aspx">Orders</a>
+        
+
+    </div>
+</section>
+       
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+    </div>
+            <div class="foot">
+     
+            <a href="main.aspx">Home</a>
+            <a href="AboutUs.aspx">About Us</a>
+            <a href="ContactUs.aspx">Contact Us</a>
+            <a href="Feedback.aspx">Take Feedback</a>
+
+           
+
+        <div class="para">
+            <p>Developed By Amar Nitale & Team </p>
+        </div>
+
+    </div>
+
+    <div class="eight">
+
+    </div>
+        </form>
+</body>
+</html>

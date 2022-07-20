@@ -1,0 +1,671 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{41172A06-46BB-4D7B-A6B8-B3CBB5147749}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Photo_Studio</RootNamespace>
+    <AssemblyName>Photo_Studio</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\itextsharp-dll-core\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AboutUs.aspx" />
+    <Content Include="AddGallery.aspx" />
+    <Content Include="AdminForgotPassword.aspx" />
+    <Content Include="AdminLogin.aspx" />
+    <Content Include="AdminMain.aspx" />
+    <Content Include="assets\css\bootstrap.css" />
+    <Content Include="assets\css\font-awesome.css" />
+    <Content Include="assets\css\lightbox.min.css" />
+    <Content Include="assets\img\bday\bday10-small.jpg" />
+    <Content Include="assets\img\bday\bday10.jpg" />
+    <Content Include="assets\img\bday\bday5-small.jpg" />
+    <Content Include="assets\img\bday\bday6-small.jpg" />
+    <Content Include="assets\img\bday\bday6.jpg" />
+    <Content Include="assets\img\bday\bday7-small.jpg" />
+    <Content Include="assets\img\bday\bday7.jpg" />
+    <Content Include="assets\img\bday\bday8-small.jpg" />
+    <Content Include="assets\img\bday\bday8.jpg" />
+    <Content Include="assets\img\bday\bday9-small.jpg" />
+    <Content Include="assets\img\bday\bday9.jpg" />
+    <Content Include="assets\img\bday\close.png" />
+    <Content Include="assets\img\bday\kids1-small.jpg" />
+    <Content Include="assets\img\bday\kids1.jpg" />
+    <Content Include="assets\img\bday\kids10-small.jpg" />
+    <Content Include="assets\img\bday\kids10.jpg" />
+    <Content Include="assets\img\bday\kids2-small.jpg" />
+    <Content Include="assets\img\bday\kids2.jpg" />
+    <Content Include="assets\img\bday\kids3-small.jpg" />
+    <Content Include="assets\img\bday\kids3.jpg" />
+    <Content Include="assets\img\bday\kids4-small.jpg" />
+    <Content Include="assets\img\bday\kids4.jpg" />
+    <Content Include="assets\img\bday\kids5-small.jpg" />
+    <Content Include="assets\img\bday\kids5.jpg" />
+    <Content Include="assets\img\bday\kids6-small.jpg" />
+    <Content Include="assets\img\bday\kids6.jpg" />
+    <Content Include="assets\img\bday\kids7-small.jpg" />
+    <Content Include="assets\img\bday\kids7.jpg" />
+    <Content Include="assets\img\bday\kids8-small.jpg" />
+    <Content Include="assets\img\bday\kids8.jpg" />
+    <Content Include="assets\img\bday\kids9-small.jpg" />
+    <Content Include="assets\img\bday\kids9.jpg" />
+    <Content Include="assets\img\bday\loading.gif" />
+    <Content Include="assets\img\bday\next.png" />
+    <Content Include="assets\img\bday\prev.png" />
+    <Content Include="assets\img\engagement\eng1-small.jpg" />
+    <Content Include="assets\img\engagement\eng1.jpg" />
+    <Content Include="assets\img\engagement\eng10-small.jpg" />
+    <Content Include="assets\img\engagement\eng10.jpg" />
+    <Content Include="assets\img\engagement\eng2-small.jpg" />
+    <Content Include="assets\img\engagement\eng2.jpg" />
+    <Content Include="assets\img\engagement\eng3-small.jpg" />
+    <Content Include="assets\img\engagement\eng3.jpg" />
+    <Content Include="assets\img\engagement\eng4-small.jpg" />
+    <Content Include="assets\img\engagement\eng4.jpg" />
+    <Content Include="assets\img\engagement\eng5-small.jpg" />
+    <Content Include="assets\img\engagement\eng5.jpg" />
+    <Content Include="assets\img\engagement\eng6-small.jpg" />
+    <Content Include="assets\img\engagement\eng6.jpg" />
+    <Content Include="assets\img\engagement\eng7-small.jpg" />
+    <Content Include="assets\img\engagement\eng7.jpg" />
+    <Content Include="assets\img\engagement\eng8-small.jpg" />
+    <Content Include="assets\img\engagement\eng8.jpg" />
+    <Content Include="assets\img\engagement\eng9-small.jpg" />
+    <Content Include="assets\img\engagement\eng9.jpg" />
+    <Content Include="assets\img\kids\kids1-small.jpg" />
+    <Content Include="assets\img\kids\kids1.jpg" />
+    <Content Include="assets\img\kids\kids10-small.jpg" />
+    <Content Include="assets\img\kids\kids10.jpg" />
+    <Content Include="assets\img\kids\kids2-small.jpg" />
+    <Content Include="assets\img\kids\kids2.jpg" />
+    <Content Include="assets\img\kids\kids3-small.jpg" />
+    <Content Include="assets\img\kids\kids3.jpg" />
+    <Content Include="assets\img\kids\kids4-small.jpg" />
+    <Content Include="assets\img\kids\kids4.jpg" />
+    <Content Include="assets\img\kids\kids5-small.jpg" />
+    <Content Include="assets\img\kids\kids5.jpg" />
+    <Content Include="assets\img\kids\kids6-small.jpg" />
+    <Content Include="assets\img\kids\kids6.jpg" />
+    <Content Include="assets\img\kids\kids7-small.jpg" />
+    <Content Include="assets\img\kids\kids7.jpg" />
+    <Content Include="assets\img\kids\kids8-small.jpg" />
+    <Content Include="assets\img\kids\kids8.jpg" />
+    <Content Include="assets\img\kids\kids9-small.jpg" />
+    <Content Include="assets\img\kids\kids9.jpg" />
+    <Content Include="assets\img\mat\mat1-small.jpg" />
+    <Content Include="assets\img\mat\mat1.jpg" />
+    <Content Include="assets\img\mat\mat10-small.jpg" />
+    <Content Include="assets\img\mat\mat10.jpg" />
+    <Content Include="assets\img\mat\mat2-small.jpg" />
+    <Content Include="assets\img\mat\mat2.jpg" />
+    <Content Include="assets\img\mat\mat3-small.jpg" />
+    <Content Include="assets\img\mat\mat3.jpg" />
+    <Content Include="assets\img\mat\mat4-small.jpg" />
+    <Content Include="assets\img\mat\mat4.jpg" />
+    <Content Include="assets\img\mat\mat5-small.jpg" />
+    <Content Include="assets\img\mat\mat5.jpg" />
+    <Content Include="assets\img\mat\mat6-small.jpg" />
+    <Content Include="assets\img\mat\mat6.jpg" />
+    <Content Include="assets\img\mat\mat7-small.jpg" />
+    <Content Include="assets\img\mat\mat7.jpg" />
+    <Content Include="assets\img\mat\mat8-small.jpg" />
+    <Content Include="assets\img\mat\mat8.jpg" />
+    <Content Include="assets\img\mat\mat9-small.jpg" />
+    <Content Include="assets\img\mat\mat9.jpg" />
+    <Content Include="assets\img\pw\pw1-small.jpg" />
+    <Content Include="assets\img\pw\pw1.jpg" />
+    <Content Include="assets\img\pw\pw10-small.jpg" />
+    <Content Include="assets\img\pw\pw10.jpg" />
+    <Content Include="assets\img\pw\pw2-small.jpg" />
+    <Content Include="assets\img\pw\pw2.jpg" />
+    <Content Include="assets\img\pw\pw3-small.jpg" />
+    <Content Include="assets\img\pw\pw3.jpg" />
+    <Content Include="assets\img\pw\pw4-small.jpg" />
+    <Content Include="assets\img\pw\pw4.jpg" />
+    <Content Include="assets\img\pw\pw5-small.jpg" />
+    <Content Include="assets\img\pw\pw5.jpg" />
+    <Content Include="assets\img\pw\pw6-small.jpg" />
+    <Content Include="assets\img\pw\pw6.jpg" />
+    <Content Include="assets\img\pw\pw7-small.jpg" />
+    <Content Include="assets\img\pw\pw7.jpg" />
+    <Content Include="assets\img\pw\pw8-small.jpg" />
+    <Content Include="assets\img\pw\pw8.jpg" />
+    <Content Include="assets\img\pw\pw9-small.jpg" />
+    <Content Include="assets\img\pw\pw9.jpg" />
+    <Content Include="assets\img\wedding\close.png" />
+    <Content Include="assets\img\wedding\loading.gif" />
+    <Content Include="assets\img\wedding\next.png" />
+    <Content Include="assets\img\wedding\prev.png" />
+    <Content Include="assets\img\wedding\wedding1-small.jpg" />
+    <Content Include="assets\img\wedding\wedding1.jpg" />
+    <Content Include="assets\img\wedding\wedding10-small.jpg" />
+    <Content Include="assets\img\wedding\wedding10.jpg" />
+    <Content Include="assets\img\wedding\wedding2-small.jpg" />
+    <Content Include="assets\img\wedding\wedding2.jpg" />
+    <Content Include="assets\img\wedding\wedding3-small.jpg" />
+    <Content Include="assets\img\wedding\wedding3.jpg" />
+    <Content Include="assets\img\wedding\wedding4-small.jpg" />
+    <Content Include="assets\img\wedding\wedding4.jpg" />
+    <Content Include="assets\img\wedding\wedding5-small.jpg" />
+    <Content Include="assets\img\wedding\wedding5.jpg" />
+    <Content Include="assets\img\wedding\wedding6-small.jpg" />
+    <Content Include="assets\img\wedding\wedding6.jpg" />
+    <Content Include="assets\img\wedding\wedding7-small.jpg" />
+    <Content Include="assets\img\wedding\wedding7.jpg" />
+    <Content Include="assets\img\wedding\wedding8-small.jpg" />
+    <Content Include="assets\img\wedding\wedding8.jpg" />
+    <Content Include="assets\img\wedding\wedding9-small.jpg" />
+    <Content Include="assets\img\wedding\wedding9.jpg" />
+    <Content Include="assets\js\lightbox-plus-jquery.min.js" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\css\StyleSheet1.css" />
+    <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\img\1.jpg" />
+    <Content Include="assets\img\1d.PNG" />
+    <Content Include="assets\img\2.jpeg" />
+    <Content Include="assets\img\2.jpg" />
+    <Content Include="assets\img\3.jpg" />
+    <Content Include="assets\img\5.jpeg" />
+    <Content Include="assets\img\9.jpeg" />
+    <Content Include="assets\img\Agape-School-blood-drive-3-11-16.png" />
+    <Content Include="assets\img\akshay.jpg" />
+    <Content Include="assets\img\amit.png" />
+    <Content Include="assets\img\B2.jpg" />
+    <Content Include="assets\img\B3.jpeg" />
+    <Content Include="assets\img\background.png" />
+    <Content Include="assets\img\bday\bday1-small.jpg" />
+    <Content Include="assets\img\bday\bday1.jpg" />
+    <Content Include="assets\img\bday\bday2-small.jpg" />
+    <Content Include="assets\img\bday\bday2.jpg" />
+    <Content Include="assets\img\bday\bday3-small.jpg" />
+    <Content Include="assets\img\bday\bday3.jpg" />
+    <Content Include="assets\img\bday\bday4-small.jpg" />
+    <Content Include="assets\img\bday\bday4.jpg" />
+    <Content Include="assets\img\bday\bday5.jpg" />
+    <Content Include="assets\img\bdr.PNG" />
+    <Content Include="assets\img\bgblood.gif" />
+    <Content Include="assets\img\blood-bank.jpg" />
+    <Content Include="assets\img\blood-donation-logo_23-2147506524.jpg" />
+    <Content Include="assets\img\camp.jpg" />
+    <Content Include="assets\img\circle img.jpg" />
+    <Content Include="assets\img\d2.PNG" />
+    <Content Include="assets\img\d4.PNG" />
+    <Content Include="assets\img\dd.PNG" />
+    <Content Include="assets\img\E1.jpeg" />
+    <Content Include="assets\img\E2.jpg" />
+    <Content Include="assets\img\E3.jpg" />
+    <Content Include="assets\img\hands-saving-blood-drop_1017-19141.jpg" />
+    <Content Include="assets\img\homologo.png" />
+    <Content Include="assets\img\Jolie.png" />
+    <Content Include="assets\img\K1.jpg" />
+    <Content Include="assets\img\leftImg.jpg" />
+    <Content Include="assets\img\logo-give-blood.jpg" />
+    <Content Include="assets\img\logo.jpg" />
+    <Content Include="assets\img\M1.jpg" />
+    <Content Include="assets\img\M2.jpg" />
+    <Content Include="assets\img\M3.jpg" />
+    <Content Include="assets\img\obama.jpg" />
+    <Content Include="assets\img\P1.jpg" />
+    <Content Include="assets\img\P2.jpg" />
+    <Content Include="assets\img\P3.jpg" />
+    <Content Include="assets\img\PM_Modi_2015.jpg" />
+    <Content Include="assets\img\rImg.jpg" />
+    <Content Include="assets\img\rq.PNG" />
+    <Content Include="assets\img\sachin.jpg" />
+    <Content Include="assets\img\save.jpg" />
+    <Content Include="assets\img\tom.png" />
+    <Content Include="assets\img\user.gif" />
+    <Content Include="assets\img\W1.jpg" />
+    <Content Include="assets\img\W2.jpg" />
+    <Content Include="assets\img\W3.jpg" />
+    <Content Include="assets\img\WhatsApp Image 2019-10-25 at 3.58.29 PM.jpeg" />
+    <Content Include="assets\img\will.png" />
+    <Content Include="assets\js\bootstrap.js" />
+    <Content Include="assets\js\custom.js" />
+    <Content Include="assets\js\dataTables\dataTables.bootstrap.css" />
+    <Content Include="assets\js\dataTables\dataTables.bootstrap.js" />
+    <Content Include="assets\js\dataTables\jquery.dataTables.js" />
+    <Content Include="assets\js\jquery-1.10.2.js" />
+    <Content Include="Birthday.aspx" />
+    <Content Include="boostrap\7309e60dbb71035d864f6bc1f1d6c589.jpg" />
+    <Content Include="boostrap\animate.min.css" />
+    <Content Include="boostrap\background.png" />
+    <Content Include="boostrap\black background.png" />
+    <Content Include="boostrap\bloaoodddd.png" />
+    <Content Include="boostrap\blue blood background.png" />
+    <Content Include="boostrap\istockphoto-668371814-1024x1024.jpg" />
+    <Content Include="boostrap\Login.aspx" />
+    <Content Include="boostrap\Login_Panel_Image.png" />
+    <Content Include="boostrap\pngtree-geometric-gradient-creative-blood-donation-poster-background-material-image_134137.jpg" />
+    <Content Include="boostrap\Style.css" />
+    <Content Include="boostrap\white background.png" />
+    <Content Include="confirmbooking.aspx" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="CustomerReport.aspx" />
+    <Content Include="Engagement.aspx" />
+    <Content Include="Feedback.aspx" />
+    <Content Include="FeedbackReport.aspx" />
+    <Content Include="ForgotPassword.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="invoice.aspx" />
+    <Content Include="Kids.aspx" />
+    <Content Include="Main.aspx" />
+    <Content Include="Maternity.aspx" />
+    <Content Include="MyOrder.aspx" />
+    <Content Include="Order.aspx" />
+    <Content Include="OrderReport.aspx" />
+    <Content Include="PreWedding.aspx" />
+    <Content Include="SignIn.aspx" />
+    <Content Include="UserLogin.aspx" />
+    <Content Include="ViewContact.aspx" />
+    <Content Include="ViewCustomer.aspx" />
+    <Content Include="ViewFeedback.aspx" />
+    <Content Include="ViewOrder.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Wedding.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddGallery.aspx.cs">
+      <DependentUpon>AddGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddGallery.aspx.designer.cs">
+      <DependentUpon>AddGallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForgotPassword.aspx.cs">
+      <DependentUpon>AdminForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminForgotPassword.aspx.designer.cs">
+      <DependentUpon>AdminForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogin.aspx.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.aspx.designer.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMain.aspx.cs">
+      <DependentUpon>AdminMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminMain.aspx.designer.cs">
+      <DependentUpon>AdminMain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMaster.Master.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminMaster.Master.designer.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSection.Master.cs">
+      <DependentUpon>AdminSection.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSection.Master.designer.cs">
+      <DependentUpon>AdminSection.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Birthday.aspx.cs">
+      <DependentUpon>Birthday.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Birthday.aspx.designer.cs">
+      <DependentUpon>Birthday.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="confirmbooking.aspx.cs">
+      <DependentUpon>confirmbooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="confirmbooking.aspx.designer.cs">
+      <DependentUpon>confirmbooking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReport3.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport3.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReport4.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport4.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomerReport.aspx.cs">
+      <DependentUpon>CustomerReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerReport.aspx.designer.cs">
+      <DependentUpon>CustomerReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Engagement.aspx.cs">
+      <DependentUpon>Engagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Engagement.aspx.designer.cs">
+      <DependentUpon>Engagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback.aspx.cs">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Feedback.aspx.designer.cs">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FeedbackReport.aspx.cs">
+      <DependentUpon>FeedbackReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FeedbackReport.aspx.designer.cs">
+      <DependentUpon>FeedbackReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="invoice.aspx.cs">
+      <DependentUpon>invoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="invoice.aspx.designer.cs">
+      <DependentUpon>invoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kids.aspx.cs">
+      <DependentUpon>Kids.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kids.aspx.designer.cs">
+      <DependentUpon>Kids.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maternity.aspx.cs">
+      <DependentUpon>Maternity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maternity.aspx.designer.cs">
+      <DependentUpon>Maternity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyOrder.aspx.cs">
+      <DependentUpon>MyOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyOrder.aspx.designer.cs">
+      <DependentUpon>MyOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Order.aspx.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Order.aspx.designer.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderReport.aspx.cs">
+      <DependentUpon>OrderReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderReport.aspx.designer.cs">
+      <DependentUpon>OrderReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PreWedding.aspx.cs">
+      <DependentUpon>PreWedding.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PreWedding.aspx.designer.cs">
+      <DependentUpon>PreWedding.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserFront.Master.cs">
+      <DependentUpon>UserFront.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserFront.Master.designer.cs">
+      <DependentUpon>UserFront.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogin.aspx.cs">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserLogin.aspx.designer.cs">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserMaster.Master.cs">
+      <DependentUpon>UserMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserMaster.Master.designer.cs">
+      <DependentUpon>UserMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ViewContact.aspx.cs">
+      <DependentUpon>ViewContact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewContact.aspx.designer.cs">
+      <DependentUpon>ViewContact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCustomer.aspx.cs">
+      <DependentUpon>ViewCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewCustomer.aspx.designer.cs">
+      <DependentUpon>ViewCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewFeedback.aspx.cs">
+      <DependentUpon>ViewFeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewFeedback.aspx.designer.cs">
+      <DependentUpon>ViewFeedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewOrder.aspx.cs">
+      <DependentUpon>ViewOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewOrder.aspx.designer.cs">
+      <DependentUpon>ViewOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Wedding.aspx.cs">
+      <DependentUpon>Wedding.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Wedding.aspx.designer.cs">
+      <DependentUpon>Wedding.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdminMaster.Master" />
+    <Content Include="AdminSection.Master" />
+    <Content Include="Site1.Master" />
+    <Content Include="UserFront.Master" />
+    <Content Include="UserMaster.Master" />
+    <Content Include="assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="boostrap\Transparent Login Images.zip" />
+    <Content Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport3.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport4.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport4.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2226/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

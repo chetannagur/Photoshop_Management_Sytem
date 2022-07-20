@@ -1,0 +1,2964 @@
+﻿body
+{
+
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+    background:linear-gradient(57deg,purple,purple);
+    font-family: 'Open Sans', sans-serif;
+  
+
+}
+
+
+.d2
+{
+     background:linear-gradient(57deg,purple,purple);
+     height:120px;
+     margin-top:30px;
+     margin-bottom:30px;
+     padding:0px;
+
+
+}
+    .d2 .d1 h1
+    {
+        color:white;
+        font-size:90px;
+    }
+        .d2 .d1 h1:hover
+        {
+        transition:0.9s;
+        color:red;
+        text-decoration:none;
+        font-weight:bold;
+        cursor:auto;
+        }
+   
+.navigation
+{
+    height: 40px;
+    background:linear-gradient(57deg,purple,purple);
+    flex-direction:row;
+    text-align:center;
+    margin:14px ,28px;
+
+
+}
+
+
+   .navigation a:hover
+    {
+        background:linear-gradient(180deg,silver,purple);
+        color:black;
+        text-decoration:none;
+        font-weight:bold;
+        transition:0.3s;
+        border-radius:25px;
+    }
+.navigation a
+{
+    color:white;
+    text-decoration:none;
+    font-weight:500;
+    padding: 15px 35px 15px 35px;
+    text-transform:uppercase;
+   
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first
+{
+        height:30px;
+
+}
+.zero
+{
+        height:80px;
+        background-color:silver;
+
+}
+
+.second
+{
+    height:80px;
+    background-color:silver;
+}
+.third
+{
+    height:80px;
+    background-color:silver;
+}
+.forth
+{
+    height:80px;
+    background-color:silver;
+}
+.fifth
+{
+    height: 80px;
+    background-color:silver;
+}
+.six
+{
+    height:80px;
+    background-color:silver;
+    
+}
+.seven
+{
+    height:70px;
+    background-color:silver;
+    
+}
+.eight
+{
+    height:100px;
+}
+.foot
+{
+    height:50px;
+}
+.wedding
+{
+    padding-left:50px;
+    padding-right:35px;
+    background-color:silver;
+}
+.maternity
+{
+    padding-left:35px;
+    padding-right:50px;
+    background-color:silver;
+}
+
+.prewedding
+{
+    padding-left:50px;
+    padding-right:35px;
+    background-color:silver;
+}
+
+.birthday
+{
+    padding-left:35px;
+    padding-right:50px;
+    background-color:silver;
+}
+
+.kids
+{
+    padding-left:50px;
+    padding-right:35px;
+    background-color:silver;
+}
+
+.engagement
+{
+    padding-left:35px;
+    padding-right:50px;
+    background-color:silver;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wedding-tag h1
+{
+    font-size:62px;
+    color:black;
+    padding-left:18%;
+    padding-top:5%;
+}
+.wedding-tag h1:hover
+{
+    
+    color:red;
+    transition:0.6s;
+   
+}
+.wedding-tag p
+{
+    padding-left:23%;
+    padding-top:10%;
+    color:purple;
+    font-size:23px;
+    font-weight:600;
+    font-family:sans-serif;
+
+    
+}
+.wedding-tag p:hover
+{
+    transition:0.6s;
+    color:#2980b9;
+   
+}
+
+ .wedding-tag-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:11%;
+    margin-top:13%;
+    margin-left:30%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .wedding-tag-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .maternity-tag h1
+{
+    font-size:62px;
+    color:black;
+    padding-left:18%;
+    padding-top:5%;
+}
+.maternity-tag h1:hover
+{
+    
+    color:red;
+    transition:0.6s;
+   
+}
+.maternity-tag p
+{
+    padding-left:33%;
+    padding-top:14%;
+    color:purple;
+    font-size:23px;
+    font-weight:600;
+    font-family:sans-serif;
+}
+.maternity-tag p:hover
+{
+    transition:0.6s;
+    color:#2980b9;
+   
+}
+
+ .maternity-tag-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:11%;
+    margin-top:17%;
+    margin-left:30%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .maternity-tag-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  .prewedding-tag h1
+{
+    font-size:52px;
+    color:black;
+    padding-left:15%;
+    padding-top:5%;
+}
+.prewedding-tag h1:hover
+{
+    
+    color:red;
+    transition:0.6s;
+   
+}
+.prewedding-tag p
+{
+    padding-left:23%;
+    padding-top:10%;
+    color:purple;
+    font-size:23px;
+    font-weight:600;
+    font-family:sans-serif;
+}
+.prewedding-tag p:hover
+{
+    transition:0.6s;
+    color:#2980b9;
+   
+}
+
+ .prewedding-tag-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:11%;
+    margin-top:13%;
+    margin-left:30%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .prewedding-tag-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+  .birthday-tag h1
+{
+    font-size:62px;
+    color:black;
+    padding-left:18%;
+    padding-top:5%;
+}
+.birthday-tag h1:hover
+{
+    
+    color:red;
+    transition:0.6s;
+   
+}
+.birthday-tag p
+{
+    padding-left:23%;
+    padding-top:15%;
+    color:purple;
+    font-size:23px;
+    font-weight:600;
+    font-family:sans-serif;
+}
+.birthday-tag p:hover
+{
+    transition:0.6s;
+    color:#2980b9;
+   
+}
+
+ .birthday-tag-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:11%;
+    margin-top:17%;
+    margin-left:24%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .birthday-tag-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+    
+
+    
+   
+  .kids-tag h1
+{
+    font-size:82px;
+    color:black;
+    padding-left:28%;
+    padding-top:5%;
+}
+.kids-tag h1:hover
+{
+    
+    color:red;
+    transition:0.6s;
+   
+}
+.kids-tag p
+{
+    padding-left:23%;
+    padding-top:15%;
+    color:purple;
+    font-size:23px;
+    font-weight:600;
+    font-family:sans-serif;
+}
+.kids-tag p:hover
+{
+    transition:0.6s;
+    color:#2980b9;
+   
+}
+
+ .kids-tag-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:11%;
+    margin-top:19%;
+    margin-left:30%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .kids-tag-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+     
+
+
+
+
+       
+   
+  .engagement-tag h1
+{
+    font-size:62px;
+    color:black;
+    padding-left:7%;
+    padding-top:5%;
+}
+.engagement-tag h1:hover
+{
+    
+    color:red;
+    transition:0.6s;
+   
+}
+.engagement-tag p
+{
+    padding-left:23%;
+    padding-top:20%;
+    color:purple;
+    font-size:23px;
+    font-weight:600;
+    font-family:sans-serif;
+}
+.engagement-tag p:hover
+{
+    transition:0.6s;
+    color:#2980b9;
+   
+}
+
+ .engagement-tag-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:11%;
+    margin-top:17%;
+    margin-left:30%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .engagement-tag-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot
+{
+      height: 40px;
+      background:linear-gradient(57deg,purple,purple);
+      flex-direction:row;
+      text-align:left;
+      margin:14px ,28px;
+      display:inline-flexbox;
+      padding-left:20px;
+}
+   .foot a:hover
+    {
+        transition:0.3s;
+        background:linear-gradient(180deg,purple,silver);
+        color:black;
+        text-decoration:none;
+        font-weight:bold;
+        border-radius:25px;
+    }
+.foot a
+{
+    color:white;
+    text-decoration:none;
+    font-weight:500;
+    padding: 15px 35px 15px 35px;
+    text-transform:uppercase;
+    float:left;
+   
+  
+}
+
+.foot p
+{
+    color:black;
+    text-decoration:none;
+    font-weight:800;
+    padding: 15px 35px 15px 35px;
+    text-transform:uppercase;
+    float:right;
+  
+}
+
+@media screen and  (max-width:700px)
+{
+    .foot
+       {
+    background-color:red;
+          }
+}
+.abtus
+{
+    height: 100vh;
+    width: 100%;
+    background-color:silver;
+    background-size:cover;
+    display:table-row;
+}
+
+    .abtus h1
+    {
+        font-size:150px;
+        color:black;
+        margin-left:25%;
+        margin-top:8%;
+    }
+        .abtus h1:hover
+        {
+            transition:0.6s;
+            color:purple;
+        }
+.saurabh
+{   
+   
+    float:left;
+    width:50%;
+    margin-top:10%;
+    padding-bottom:10%;
+    padding-left:15%;
+    padding-top:3%;
+    height:50%;
+}
+    .saurabh h2
+    {
+
+        font-size:40px;
+        padding-left:12%;
+    }
+     .saurabh h2:hover
+    {
+        transition:0.6s;
+        color:red;
+    }
+     .omkar h2:hover
+    {
+        transition:0.6s;
+        color:red;
+    }
+
+.parasp
+{
+    padding-top:5%;
+}
+.paraom
+{
+    padding-top:5%;
+}
+
+     .saurabh .parasp p
+    {
+          font-size:20px;
+          font-weight:700;
+
+
+    }
+      .saurabh .parasp p:hover
+    {
+         color:purple;
+         transition:0.6s;
+    }
+        .omkar .paraom p:hover
+    {
+         color:purple;
+         transition:0.6s;
+    }
+.omkar
+{
+  
+
+    float:right;
+    padding-top:3%;
+    padding-bottom:10%;
+    width:50%;
+    padding-left:15%;
+    margin-top:10%;
+    height:50%;
+}
+.omkar h2
+{
+    font-size:40px;
+    padding-left:10%;
+}
+  .omkar .paraom p
+    {
+         font-size:20px;
+         font-weight:700;
+    }
+.saurabh img
+{
+    padding-left:6%;
+    height:55%;
+    width:45%;
+}
+
+.omkar img
+{
+    padding-left:4%;
+    height:55%;
+    width:45%;
+}
+
+
+
+
+
+
+
+.contact-section
+{
+    background-color:silver;
+    background-size:cover;
+    padding:40px 0;
+}
+    .contact-section h1
+    {
+        text-align:center;
+        color:black;
+        margin-bottom:5%;
+    }
+.border
+{
+    width:100px;
+    height:10px;
+    background:#34495e;
+    margin:40px auto;
+    
+}
+.contact-form
+{
+    max-width:600px;
+    margin:auto;
+    padding:0 10px;
+    overflow:hidden;
+}
+
+    
+.contact-form-text
+{
+    display:block;
+    width:55%;
+    box-sizing:border-box;
+    margin:2% 22%;
+    border:0;
+    background:white;
+    padding:20px 40px;
+    outline:none;
+    color:black;
+    transition:0.5s;
+    border-radius:20px;
+}
+    
+     .contact-form-text:focus
+    {
+        box-shadow:0 0 10px 4px purple;
+    }
+
+textarea.contact-form-text
+{
+    resize:none;
+    height:210px;
+}
+.contact-form-btn
+{
+    
+    border:0;
+    background:#34495e;
+    color:#fff;
+    padding:12px 50px;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-left:38%;
+    margin-top:3%;
+    margin-bottom:6%;
+    float:none;
+
+}
+    .contact-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+    .adminlogin-section
+{
+    background-color:silver;
+    background-size:cover;
+    padding:40px 0;
+}
+    .adminlogin-section h1
+    {
+        text-align:center;
+        color:black;
+        margin-top:5%;
+        margin-bottom:4%;
+
+    }
+.border
+{
+    width:100px;
+    height:10px;
+    background:#34495e;
+    margin:40px auto;
+    
+}
+.adminlogin-form
+{
+    max-width:600px;
+    margin:auto;
+    padding:0 10px;
+    overflow:hidden;
+}
+.adminlogin-form-text
+{
+    display:block;
+    width:55%;
+    box-sizing:border-box;
+    margin:2% 22%;
+    border-radius:20px;
+    border:0;
+    background:white;
+    padding:20px 40px;
+    outline:none;
+    color:black;
+    transition:0.5s;
+
+}
+    
+     .adminlogin-form-text:focus
+    {
+        box-shadow:0 0 10px 4px purple;
+    }
+
+textarea.adminlogin-form-text
+{
+    resize:none;
+    height:120px;
+}
+.adminlogin-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:8%;
+    margin-top:3%;
+    margin-left:22%;
+    padding:12px 50px;
+    float:left;
+
+}
+    .adminlogin-form-btn:hover
+    {
+        background:#2980b9;
+    }
+   
+      .adminlogin-form-btn3
+{ 
+   
+    border:0;
+    background:#34495e;
+    color:white;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:8%;
+    margin-top:3%;
+    margin-left:16%;
+    float:none;
+    padding:12px 50px;
+}
+    .adminlogin-form-btn3:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+
+
+
+
+     .userlogin-section
+{
+    background-color:silver;
+    background-size:cover;
+    padding:40px 0;
+}
+    .userlogin-section h1
+    {
+        text-align:center;
+        color:black;
+        margin-top:5%;
+        margin-bottom:4%;
+
+    }
+.border
+{
+    width:100px;
+    height:10px;
+    background:#34495e;
+    margin:40px auto;
+    
+}
+.userlogin-form
+{
+    max-width:600px;
+    margin:auto;
+    padding:0 10px;
+    overflow:hidden;
+}
+.userlogin-form-text
+{
+    display:block;
+    width:55%;
+    box-sizing:border-box;
+    margin:0% 22%;
+    border-radius:20px;
+    border:0;
+    background:white;
+    padding:20px 40px;
+    outline:none;
+    color:black;
+    transition:0.5s;
+}
+    
+     .userlogin-form-text:focus
+    {
+        box-shadow:0 0 10px 4px purple;
+    }
+
+textarea.userlogin-form-text
+{
+    resize:none;
+    height:120px;
+}
+.userlogin-form-btn1
+{ 
+    
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:5%;
+    margin-top:5%;
+    margin-left:22%;
+    padding:12px 50px;
+    float:left;
+}
+    .userlogin-form-btn1:hover
+    {
+        background:#2980b9;
+    }
+    .userlogin-form-btn2
+{ 
+  
+   border:0;
+    background:#34495e;
+    color:white;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:5%;
+    margin-top:5%;
+    margin-left:15%;
+    float:none;
+    padding:12px 50px;
+
+}
+    .userlogin-form-btn2:hover
+    {
+        background:#2980b9;
+    }
+      .userlogin-form-btn3
+{ 
+   
+    border:0;
+    background:#2980b9;
+    color:white;
+  
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:20%;
+    margin-top:0%;
+    margin-left:22%;
+    float:none;
+    padding:17px 420px;
+    padding-left:23%;
+
+}
+    .userlogin-form-btn3:hover
+    {
+        background:purple;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     .adminforgot-section
+{
+    background-color:silver;
+    background-size:cover;
+    padding:40px 0;
+}
+    .adminforgot-section h1
+    {
+        text-align:center;
+        color:black;
+        margin-top:5%;
+        margin-bottom:4%;
+
+    }
+.border
+{
+    width:100px;
+    height:10px;
+    background:#34495e;
+    margin:40px auto;
+    
+}
+.adminforgot-form
+{
+    max-width:600px;
+    margin:auto;
+    padding:0 10px;
+    overflow:hidden;
+}
+.adminforgot-form-text
+{
+    display:block;
+    width:55%;
+    box-sizing:border-box;
+    margin:2% 22%;
+    border-radius:20px;
+    border:0;
+    background:white;
+    padding:20px 40px;
+    outline:none;
+    color:black;
+    transition:0.5s;
+
+}
+    
+     .adminforgot-form-text:focus
+    {
+        box-shadow:0 0 10px 4px purple;
+    }
+
+.horizontal
+{
+    
+      
+      display:inline-flexbox;
+}
+
+     .adminforgot-form-text-otp
+{
+    display:flexbox;
+    width:33%;
+    box-sizing:border-box;
+ 
+   margin-left:2%;
+    border-radius:20px;
+    border:0;
+    background:white;
+    padding:20px 40px;
+    outline:none;
+    color:black;
+    transition:0.5s;
+
+}
+    
+     .adminforgot-form-text-otp:focus
+    {
+        box-shadow:0 0 10px 4px purple;
+    }
+
+
+textarea.adminforgot-form-text
+{
+    resize:none;
+    height:120px;
+}
+.adminforgot-form-btn
+{   margin-left:38%;
+    float:none;
+    border:0;
+    background:#34495e;
+    color:#fff;
+    padding:12px 50px;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:6%;
+    margin-top:4%;
+
+}
+    .adminforgot-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+    .adminforgot-form-btn-otp
+{   
+      
+    float:none;
+    border:0;
+    background:#34495e;
+    color:#fff;
+    padding:20px 40px;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+     width:18%;
+    margin-left:22%;
+    float:left;
+    
+    
+
+}
+    .adminforgot-form-btn-otp:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
+     .forgot-pass-section
+{
+    background-color:silver;
+    background-size:cover;
+    padding:40px 0;
+}
+    .forgot-pass-section h1
+    {
+        text-align:center;
+        color:black;
+        margin-top:5%;
+        margin-bottom:4%;
+
+    }
+.border
+{
+    width:100px;
+    height:10px;
+    background:#34495e;
+    margin:40px auto;
+    
+}
+.forgot-pass-form
+{
+    max-width:600px;
+    margin:auto;
+    padding:0 10px;
+    overflow:hidden;
+}
+.forgot-pass-form-text
+{
+    display:block;
+    width:55%;
+    box-sizing:border-box;
+    margin:2% 22%;
+    border-radius:20px;
+    border:0;
+    background:white;
+    padding:20px 40px;
+    outline:none;
+    color:black;
+    transition:0.5s;
+
+}
+    
+     .forgot-pass-form-text:focus
+    {
+        box-shadow:0 0 10px 4px purple;
+    }
+
+.forgot-horizontal
+{
+    
+      
+      display:inline-flexbox;
+}
+
+     .forgot-pass-form-text-otp
+{
+    display:flexbox;
+    width:33%;
+    box-sizing:border-box;
+ 
+   margin-left:2%;
+    border-radius:20px;
+    border:0;
+    background:white;
+    padding:20px 40px;
+    outline:none;
+    color:black;
+    transition:0.5s;
+
+}
+    
+     .forgot-pass-form-text-otp:focus
+    {
+        box-shadow:0 0 10px 4px purple;
+    }
+
+
+textarea.forgot-pass-form-text
+{
+    resize:none;
+    height:120px;
+}
+.forgot-pass-form-btn
+{   margin-left:38%;
+    float:none;
+    border:0;
+    background:#34495e;
+    color:#fff;
+    padding:12px 50px;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:6%;
+    margin-top:4%;
+
+}
+    .forgot-pass-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+    .forgot-pass-form-btn-otp
+{   
+      
+    float:none;
+    border:0;
+    background:#34495e;
+    color:#fff;
+    padding:20px 40px;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+     width:18%;
+    margin-left:22%;
+    float:left;
+    
+    
+
+}
+    .forgot-pass-form-btn-otp:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .signin-section
+{
+    background-color:silver;
+    background-size:cover;
+    padding:40px 0;
+    height:1030px;
+}
+    .signin-section h1
+    {
+        text-align:center;
+        color:black;
+        margin-top:3%;
+        margin-bottom:4%;
+
+    }
+.border
+{
+    width:100px;
+    height:10px;
+    background:#34495e;
+    margin:40px auto;
+    
+}
+.signin-form
+{
+    max-width:600px;
+    margin:auto;
+    padding:0 10px;
+    overflow:hidden;
+}
+.signin-form-text
+{
+   display:block;
+    width:55%;
+    box-sizing:border-box;
+    margin:0% 22%;
+    border-radius:20px;
+    border:0;
+    background:white;
+    padding:20px 40px;
+    outline:none;
+    color:black;
+    transition:0.5s;
+
+}
+    
+     .signin-form-text:focus
+    {
+        box-shadow:0 0 10px 4px purple;
+    }
+
+textarea.signin-form-text
+{
+    resize:none;
+    height:120px;
+}
+.signin-form-btn
+{  
+    float:right;
+    border:0;
+    background:#34495e;
+    color:#fff;
+    padding:12px 50px;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:3%;
+    margin-top:4%;
+    margin-right:23%;
+}
+    .signin-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+    .signin-form-btn1
+{ 
+    border:0;
+    background:#34495e;
+    color:#fff;
+   
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:3%;
+    margin-top:4%;
+    margin-left:22%;
+    padding:12px 50px;
+    float:left;
+}
+    .signin-form-btn1:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+      .adminsignin-section
+{
+    background-color:silver;
+    background-size:cover;
+    padding:40px 0;
+}
+    .adminsignin-section h1
+    {
+        text-align:center;
+        color:black;
+        margin-top:5%;
+        margin-bottom:4%;
+
+    }
+.border
+{
+    width:100px;
+    height:10px;
+    background:#34495e;
+    margin:40px auto;
+    
+}
+.adminsignin-form
+{
+    max-width:600px;
+    margin:auto;
+    padding:0 10px;
+    overflow:hidden;
+}
+.adminsignin-form-text
+{
+    display:block;
+    width:100%;
+    box-sizing:border-box;
+    margin:16px 0;
+    border:0;
+    background:white;
+    padding:20px 40px;
+    outline:none;
+    color:black;
+    transition:0.5s;
+
+}
+    
+     .adminsignin-form-text:focus
+    {
+        box-shadow:0 0 10px 4px purple;
+    }
+
+textarea.adminsignin-form-text
+{
+    resize:none;
+    height:120px;
+}
+.adminsignin-form-btn
+{   margin-right:13%;
+    float:right;
+    border:0;
+    background:#34495e;
+    color:#fff;
+    padding:12px 50px;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:20%;
+    margin-top:8%;
+
+}
+    .adminsignin-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+    .adminsignin-form-btn1
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:20%;
+    margin-top:8%;
+    margin-left:13%;
+    padding:12px 50px;
+    float:left;
+
+}
+    .adminsignin-form-btn1:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+
+
+    .wedding-section
+{
+    height: 200vh;
+    width: 100%;
+    background-color:silver;
+    background-size:cover;
+    
+}
+
+    .wedding-section h1
+    {
+        font-size:150px;
+        color:black;
+        margin-left:25%;
+        margin-top:8%;
+        padding-top:6%;
+    }
+        .wedding-section h1:hover
+        {
+             transition:0.6s;
+            color:purple;
+        }
+ .wedding-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:5%;
+    margin-top:4%;
+    margin-left:44%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .wedding-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+     .engagement-section
+{
+    height: 200vh;
+    width: 100%;
+    background-color:silver;
+    background-size:cover;
+    
+}
+
+    .engagement-section h1
+    {
+        font-size:150px;
+        color:black;
+        margin-left:16%;
+        margin-top:8%;
+        padding-top:6%;
+    }
+        .engagement-section h1:hover
+        {
+             transition:0.6s;
+            color:purple;
+        }
+ .engagement-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:5%;
+    margin-top:4%;
+    margin-left:44%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .engagement-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .maternity-section
+{
+    height: 200vh;
+    width: 100%;
+    background-color:silver;
+    background-size:cover;
+    
+}
+
+    .maternity-section h1
+    {
+        padding-top:6%;
+        font-size:150px;
+        color:black;
+        margin-left:25%;
+        margin-top:8%;
+    }
+        .maternity-section h1:hover
+        {
+             transition:0.6s;
+             color:purple;
+        }
+ .maternity-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:5%;
+    margin-top:4%;
+    margin-left:44%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .maternity-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+
+
+
+    
+    .prewedding-section
+{
+    height: 200vh;
+    width: 100%;
+    background-color:silver;
+    background-size:cover;
+    
+}
+
+    .prewedding-section h1
+    {
+        font-size:150px;
+        color:black;
+        margin-left:16%;
+        margin-top:8%;
+        padding-top:6%;
+    }
+        .prewedding-section h1:hover
+        {
+            transition:0.6s;
+            color:purple;
+        }
+ .prewedding-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:5%;
+    margin-top:4%;
+    margin-left:44%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .prewedding-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+
+     .birthday-section
+{
+    height: 200vh;
+    width: 100%;
+    background-color:silver;
+    background-size:cover;
+    
+}
+
+    .birthday-section h1
+    {
+        font-size:150px;
+        color:black;
+        margin-left:25%;
+        margin-top:8%;
+        padding-top:6%;
+    }
+        .birthday-section h1:hover
+        {
+            transition:0.6s;
+            color:purple;
+        }
+ .birthday-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:5%;
+    margin-top:4%;
+    margin-left:44%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .birthday-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+         .kids-section
+{
+    height: 200vh;
+    width: 100%;
+    background-color:silver;
+    background-size:cover;
+    
+}
+
+    .kids-section h1
+    {
+        font-size:150px;
+        color:black;
+        margin-left:37%;
+        margin-top:8%;
+        padding-top:6%;
+    }
+        .kids-section h1:hover
+        {
+             transition:0.6s;
+             color:purple;
+        }
+ .kids-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:5%;
+    margin-top:4%;
+    margin-left:44%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .kids-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+
+
+    
+.feedback-section
+{
+    background-color:silver;
+    background-size:cover;
+    padding:40px 0;
+}
+    .feedback-section h1
+    {
+        text-align:center;
+        color:black;
+        margin-bottom:3%;
+    }
+.border
+{
+    width:100px;
+    height:10px;
+    background:#34495e;
+    margin:40px auto;
+    
+}
+.feedback-form
+{
+    max-width:600px;
+    margin:auto;
+    padding:0 10px;
+    overflow:hidden;
+}
+.feedback-form-text
+{
+     display:block;
+    width:70%;
+    box-sizing:border-box;
+    margin:2% 15%;
+    border:0;
+    background:white;
+    padding:20px 40px;
+    outline:none;
+    color:black;
+    transition:0.5s;
+    border-radius:20px;
+
+}
+    
+     .feedback-form-text:focus
+    {
+        box-shadow:0 0 10px 4px purple;
+    }
+
+textarea.feedback-form-text
+{
+    resize:none;
+    height:280px;
+}
+.feedback-form-btn
+{
+    
+     border:0;
+    background:#34495e;
+    color:#fff;
+    padding:12px 50px;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-left:38%;
+    margin-top:3%;
+    margin-bottom:6%;
+    float:none;
+}
+    .feedback-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+.adminmain-section
+{
+    background-color:silver;
+    background-size:cover;
+    padding:40px 0;
+}
+    .adminmain-section h1
+    {
+        text-align:center;
+        color:black;
+        margin-bottom:7%;
+        font-size:70px;
+    }
+.border
+{
+    width:100px;
+    height:10px;
+    background:#34495e;
+    margin:40px auto;
+    
+}
+.adminmain-form
+{
+    max-width:100%;
+    margin:auto;
+    padding:0 10px;
+    overflow:hidden;
+}
+
+.adminmain-form-btn
+{
+    
+    border:0;
+    background:#34495e;
+    color:#fff;
+    padding:12px 50px;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin:40px 30px;
+    float:none;
+}
+    .adminmain-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+.adminmain-form-btn9
+{
+    
+    border:0;
+    background:purple;
+    color:#fff;
+    padding:22px 100px;
+    border-radius:30px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-left:40%;
+    margin-top:4%;
+    margin-bottom:6%;
+    float:none;
+}
+    .adminmain-form-btn9:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+.adminmainfirst
+{
+    flex-direction:row;
+    height:150px;
+}
+.adminmainsecond
+{
+    flex-direction:row;
+    height:150px;
+}
+
+
+
+
+
+
+
+
+
+
+    .viewcontact-section
+{
+    height:100%;
+    width: 100%;
+    background-color:silver;
+    background-size:cover;
+
+   
+}
+
+    .viewcontact-section h1
+    {
+        font-size:75px;
+        color:black;
+        margin-left:30%;
+        margin-top:8%;
+        padding-top:6%;
+    }
+        .viewcontact-section h1:hover
+        {
+            transition:0.6s;
+            color:purple;
+        }
+#GridView1
+{
+   border-style: solid;
+    border-color: inherit;
+   border-width: medium;
+margin-left:18%;
+margin-bottom:5%;
+}
+
+.reply-email
+{
+    color:purple;
+    margin-left:7%;
+    margin-top:5%;
+  margin-bottom:58%;
+
+  
+    box-sizing:border-box;
+    
+    border:0;
+    background:white;
+    padding-left:2%;
+    outline:none;
+    color:black;
+    transition:0.5s;
+    border-radius:20px;
+}
+    .reply-email:focus
+    {
+        box-shadow:0 0 10px 4px purple;
+    }
+     .reply-text:focus
+    {
+        box-shadow:0 0 10px 4px purple;
+    }
+.reply-text
+{
+    color:purple;
+    margin-left:4%;
+    margin-top:5%;
+    margin-bottom:45%;
+        padding-left:2%;
+                padding-right:1%;
+
+  
+    box-sizing:border-box;
+    
+    border:0;
+    background:white;
+    
+    outline:none;
+    color:black;
+    transition:0.5s;
+    border-radius:20px;
+}
+ .viewcontact-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-top:5%;
+    margin-bottom:5%;
+    margin-left:4%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .viewcontact-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+    
+    .orderreport-section
+{
+    height: 150vh;
+    width: 100%;
+    background-color:silver;
+    background-size:cover;
+    
+}
+
+    .orderreport-section h1
+    {
+        font-size:75px;
+        color:black;
+        margin-left:30%;
+        margin-top:8%;
+        padding-top:6%;
+    }
+        .orderreport-section h1:hover
+        {
+            transition:0.6s;
+            color:purple;
+        }
+ .orderreport-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-top:47%;
+    margin-left:44%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .orderreport-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+    
+
+
+
+    
+    .feedbackreport-section
+{
+    height: 150vh;
+    width: 100%;
+    background-color:silver;
+    background-size:cover;
+    
+}
+
+    .feedbackreport-section h1
+    {
+        font-size:75px;
+        color:black;
+        margin-left:30%;
+        margin-top:8%;
+        padding-top:6%;
+    }
+        .feedbackreport-section h1:hover
+        {
+            transition:0.6s;
+            color:purple;
+        }
+ .feedbackreport-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-top:47%;
+    margin-left:44%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .feedbackreport-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+
+.deleteid
+{
+    
+    box-sizing:border-box;
+    
+    border:0;
+    background:white;
+    padding-left:2%;
+    outline:none;
+    color:black;
+    transition:0.5s;
+    border-radius:20px;
+}
+
+
+    .deleteid:focus
+    {
+        box-shadow:0 0 10px 4px #2980b9;
+    }
+.vcs
+{
+    margin-left:5%;
+        margin-right:5%;
+
+}
+    .viewcustomer-section
+{
+    height: 100%;
+    width: 100%;
+    background-color:silver;
+    background-size:cover;
+    
+}
+
+    .viewcustomer-section h1
+    {
+        font-size:75px;
+        color:black;
+        margin-left:30%;
+        margin-top:8%;
+                margin-bottom:4%;
+
+        padding-top:6%;
+    }
+        .viewcustomer-section h1:hover
+        {
+            transition:0.6s;
+            color:purple;
+        }
+ .viewcustomer-form-btn
+{
+    border:0;
+    background:#2980b9;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    
+        margin-bottom:4%;
+
+    margin-left:32%;
+    padding:4px 50px;
+    float:none;
+
+}
+    .viewcustomer-form-btn:hover
+    {
+        background:purple;
+    }
+
+    .viewcustomer-form-btn2
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    
+        margin-bottom:5%;
+                margin-top:3%;
+
+    margin-left:40%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .viewcustomer-form-btn2:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+
+
+
+    
+  .vos
+{
+    margin-left:5%;
+        margin-right:5%;
+
+}
+
+    
+    .vieworder-section
+{
+    height: 100%;
+    width: 100%;
+    background-color:silver;
+    background-size:cover;
+    
+}
+.deleteid
+{
+
+}
+
+    .vieworder-section h1
+    {
+        font-size:75px;
+        color:black;
+        margin-left:35%;
+        margin-top:8%;
+        padding-top:6%;
+    }
+        .vieworder-section h1:hover
+        {
+             transition:0.6s;
+            color:purple;
+        }
+ .vieworder-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-top:5%;
+        margin-bottom:5%;
+    margin-left:42%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .vieworder-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+
+
+
+.vfs
+{
+    margin-left:45%;
+}
+.priviousnext
+{
+    margin-left:-38%
+}
+
+
+    
+    .viewfeedback-section
+{
+    height: 100%;
+    width: 100%;
+    background-color:silver;
+    
+    background-size:cover;
+    
+}
+
+    .viewfeedback-section h1
+    {
+        font-size:75px;
+        color:black;
+        margin-left:30%;
+        margin-top:8%;
+        padding-top:6%;
+    }
+        .viewfeedback-section h1:hover
+        {
+            transition:0.6s;
+            color:purple;
+        }
+ .viewfeedback-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-top:5%;
+    margin-bottom:5%;
+    margin-left:41%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .viewfeedback-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+    .customerreport-section
+{
+    height: 150vh;
+    width: 100%;
+    background-color:silver;
+    background-size:cover;
+    
+}
+
+    .customerreport-section h1
+    {
+        font-size:75px;
+        color:black;
+        margin-left:30%;
+        margin-top:8%;
+        padding-top:6%;
+    }
+        .customerreport-section h1:hover
+        {
+            transition:0.6s;
+            color:purple;
+        }
+ .customerreport-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-top:47%;
+    margin-left:44%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .customerreport-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+    
+    .order-section
+{
+    height: 140vh;
+    width: 100%;
+    text-align:center;
+    font-family:Cambria;
+    font-size:20px;
+    background-color:silver;
+    background-size:cover;
+    
+}
+
+    .order-section h1
+    {
+        font-size:60px;
+        color:black;
+        
+        margin-top:8%;
+        padding-top:6%;
+    }
+        .order-section h1:hover
+        {
+            transition:0.6s;
+            color:purple;
+        }
+ .order-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:10%;
+    margin-top:1%;
+  
+    padding:12px 50px;
+    float:none;
+
+}
+    .order-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+
+
+    
+    
+    .cancel-section
+{
+    height: 140vh;
+    width: 100%;
+    background-color:silver;
+    background-size:cover;
+    
+}
+
+    .cancel-section h1
+    {
+        font-size:60px;
+        color:black;
+        margin-left:39%;
+        margin-top:8%;
+        padding-top:6%;
+    }
+        .cancel-section h1:hover
+        {
+            transition:0.6s;
+            color:purple;
+        }
+ .cancel-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:10%;
+    margin-top:47%;
+    margin-left:46%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .cancel-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+     .myorder-section
+{
+    height: 100%;
+    width: 100%;
+   
+    background-color:silver;
+    background-size:cover;
+    
+}
+        
+  .mos
+{
+    margin-left:40%;
+        margin-right:40%;
+
+}
+
+    .myorder-section h1
+    {
+        font-size:60px;
+        color:black;
+        margin-left:40%;
+        margin-top:8%;
+          
+
+        padding-top:6%;
+    }
+        .myorder-section h1:hover
+        {
+            transition:0.6s;
+            color:purple;
+        }
+ .myorder-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:8%;
+    margin-top:10%;
+    margin-left:4%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .myorder-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+
+
+
+
+
+    .gallary
+   
+    {
+        margin:10px,10px;
+       
+        
+    }
+
+    .gallary img
+    {
+        transition:1s;
+        padding:15px;
+        width:300px;
+    }
+     .gallary img:hover
+     {
+         filter:grayscale(100%);
+         transform:scale(1.1);
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+    
+    .invoice-section
+{
+    height: 100%;
+    width: 100%;
+    background-color:silver;
+    background-size:cover;
+    
+}
+
+     .invoice-section h1
+    {
+        font-size:60px;
+        color:black;
+        margin-left:42%;
+        margin-top:8%;
+        padding-top:6%;
+    }
+
+     .invoice-panel
+     {
+         width:80%;
+         margin-right:10%;
+         margin-left:10%;
+         padding:5%;
+
+     }
+     .invoice-form-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:4%;
+        margin-top:4%;
+
+    margin-left:42%;
+    padding:12px 50px;
+    float:none;
+
+}
+
+     .invoice-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+     
+.gallery-section
+{
+    background-color:silver;
+    background-size:cover;
+    padding:40px 0;
+}
+    .gallery-section h1
+    {
+        text-align:center;
+        color:black;
+        margin-bottom:5%;
+    }
+.border
+{
+    width:100px;
+    height:10px;
+    background:#34495e;
+    margin:40px auto;
+    
+}
+.gallery-form
+{
+    max-width:600px;
+    margin:auto;
+    padding:0 10px;
+    overflow:hidden;
+}
+
+    
+.gallery-form-text
+{
+    display:block;
+    width:55%;
+    box-sizing:border-box;
+    margin:2% 22%;
+    border:0;
+    background:white;
+    padding:20px 40px;
+    outline:none;
+    color:black;
+    transition:0.5s;
+    border-radius:20px;
+}
+    
+     .gallery-form-text:focus
+    {
+        box-shadow:0 0 10px 4px purple;
+    }
+
+
+.gallery-form-btn
+{
+    
+    border:0;
+    background:#34495e;
+    color:#fff;
+    padding:12px 50px;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-left:9%;
+    margin-top:4%;
+    margin-bottom:6%;
+    float:none;
+
+}
+    .gallery-form-btn:hover
+    {
+        background:#2980b9;
+    }
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+     .confirm-section
+{
+    height: 100%;
+    width: 100%;
+    font-family:Cambria;
+    font-size:20px;
+    background-color:silver;
+    background-size:cover;
+
+    
+}
+.cs
+{
+         margin-left:50%;
+       
+}
+
+.confirmdate
+{
+    color:purple;
+         margin-left:3%;
+ font-weight:800;
+ font-size:15px;
+}
+
+    .confirm-section h1
+    {
+        font-size:60px;
+        color:black;
+        margin-left:32%;
+        margin-top:2%;
+                margin-bottom:4%;
+
+        padding-top:6%;
+    }
+        .confirm-section h1:hover
+        {
+            transition:0.6s;
+            color:purple;
+        }
+ .confirm-btn
+{
+    border:0;
+    background:#34495e;
+    color:#fff;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-bottom:6%;
+    margin-top:5%;
+    margin-left:43%;
+    padding:12px 50px;
+    float:none;
+
+}
+    .confirm-btn:hover
+    {
+        background:#2980b9;
+    }
+

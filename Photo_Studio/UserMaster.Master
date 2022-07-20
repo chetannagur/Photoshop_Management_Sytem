@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserMaster.master.cs" Inherits="Photo_Studio.UserMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    </title>
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet1.css" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="boostrap/animate.min.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <style type="text/css">
+       
+     
+</style>   
+     <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+   <section>
+        <div class="d2">
+               <div class="d1">
+                  <h1 class="wow zoomIn animated animated" style="visibility:visible; animation-delay:0.5s; animation-name:zoomIn; text-align: center;"> Crystle Photography</h1>
+
+                </div>
+         </div>
+  
+
+    <div class="navigation">
+      
+        <a href="Home.aspx">Home</a>
+        <a href="UserLogin.aspx">User Login</a>
+        <a href="SignIn.aspx">User SignIn</a>
+        <a href="ForgotPassword.aspx">Forgot Password</a>
+            
+      
+        
+
+    </div>
+</section>
+       
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+    </div>
+            <div class="foot">
+     
+            <a href="Home.aspx">Home</a>
+          
+            <a href="ContactUs.aspx">Contact Us</a>
+            <a href="Feedback.aspx">Take Feedback</a>
+
+           
+
+        <div class="para">
+            <p>Developed By Omkar Kamble & Saurabh Patil </p>
+        </div>
+
+    </div>
+
+    <div class="eight">
+
+    </div>
+        </form>
+</body>
+</html>
+

@@ -1,0 +1,35 @@
+c:\users\user\documents\visual studio 2012\Projects\Photo_Studio\Photo_Studio\bin\Photo_Studio.dll
+c:\users\user\documents\visual studio 2012\Projects\Photo_Studio\Photo_Studio\bin\Photo_Studio.pdb
+c:\users\user\documents\visual studio 2012\Projects\Photo_Studio\Photo_Studio\obj\Debug\Photo_Studio.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2012\Projects\Photo_Studio\Photo_Studio\obj\Debug\Photo_Studio.dll
+c:\users\user\documents\visual studio 2012\Projects\Photo_Studio\Photo_Studio\obj\Debug\Photo_Studio.pdb
+D:\Saurya\Aniket Project\Photo_Studio\Photo_Studio\bin\Photo_Studio.dll.config
+D:\Saurya\Aniket Project\Photo_Studio\Photo_Studio\bin\Photo_Studio.dll
+D:\Saurya\Aniket Project\Photo_Studio\Photo_Studio\bin\Photo_Studio.pdb
+D:\Saurya\Aniket Project\Photo_Studio\Photo_Studio\obj\Debug\Photo_Studio.csprojResolveAssemblyReference.cache
+D:\Saurya\Aniket Project\Photo_Studio\Photo_Studio\obj\Debug\Photo_Studio.dll
+D:\Saurya\Aniket Project\Photo_Studio\Photo_Studio\obj\Debug\Photo_Studio.pdb
+D:\Saurya\Aniket Project\Photo_Studio\Photo_Studio\bin\itextsharp.dll
+D:\Saurya\Aniket Project\Photo_Studio\Photo_Studio\bin\itextsharp.xml
+E:\sem 6 project\Aniket Project\Photo_Studio\Photo_Studio\obj\Debug\Photo_Studio.csprojResolveAssemblyReference.cache
+E:\sem 6 project\Aniket Project\Photo_Studio\Photo_Studio\obj\Debug\Photo_Studio.dll
+E:\sem 6 project\Aniket Project\Photo_Studio\Photo_Studio\obj\Debug\Photo_Studio.pdb
+E:\sem 6 project\Aniket Project\Photo_Studio\Photo_Studio\bin\Photo_Studio.dll
+E:\sem 6 project\Aniket Project\Photo_Studio\Photo_Studio\bin\Photo_Studio.pdb
+E:\sem 6 project\Aniket Project\Photo_Studio\Photo_Studio\bin\itextsharp.dll
+E:\sem 6 project\Aniket Project\Photo_Studio\Photo_Studio\bin\itextsharp.xml
+D:\Chetan\Saurya Project\Aniket Project\Photo_Studio\Photo_Studio\bin\Photo_Studio.dll.config
+D:\Chetan\Saurya Project\Aniket Project\Photo_Studio\Photo_Studio\bin\Photo_Studio.dll
+D:\Chetan\Saurya Project\Aniket Project\Photo_Studio\Photo_Studio\bin\Photo_Studio.pdb
+D:\Chetan\Saurya Project\Aniket Project\Photo_Studio\Photo_Studio\bin\itextsharp.dll
+D:\Chetan\Saurya Project\Aniket Project\Photo_Studio\Photo_Studio\bin\itextsharp.xml
+D:\Chetan\Saurya Project\Aniket Project\Photo_Studio\Photo_Studio\obj\Debug\Photo_Studio.csprojResolveAssemblyReference.cache
+D:\Chetan\Saurya Project\Aniket Project\Photo_Studio\Photo_Studio\obj\Debug\Photo_Studio.dll
+D:\Chetan\Saurya Project\Aniket Project\Photo_Studio\Photo_Studio\obj\Debug\Photo_Studio.pdb
+E:\Photoshop Project1\Photoshop Project\Photo_Studio\Photo_Studio\bin\Photo_Studio.dll.config
+E:\Photoshop Project1\Photoshop Project\Photo_Studio\Photo_Studio\bin\Photo_Studio.dll
+E:\Photoshop Project1\Photoshop Project\Photo_Studio\Photo_Studio\bin\Photo_Studio.pdb
+E:\Photoshop Project1\Photoshop Project\Photo_Studio\Photo_Studio\bin\itextsharp.xml
+E:\Photoshop Project1\Photoshop Project\Photo_Studio\Photo_Studio\obj\Debug\Photo_Studio.csprojResolveAssemblyReference.cache
+E:\Photoshop Project1\Photoshop Project\Photo_Studio\Photo_Studio\obj\Debug\Photo_Studio.dll
+E:\Photoshop Project1\Photoshop Project\Photo_Studio\Photo_Studio\obj\Debug\Photo_Studio.pdb
